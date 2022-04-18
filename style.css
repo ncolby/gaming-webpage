@@ -9,11 +9,44 @@ body {
 
 .header-item {
   color: bisque;
+  text-align: center;
+}
+
+.img-sizing {
+  width: 30em;
+  height: 20em;
+  opacity: 90%;
+  border-radius: 2em;
 }
 
 .text-style {
   font-family: "Ubuntu Mono", monospace;
 }
 
-@media screen {
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.canvas {
+  border: 1px solid aquamarine;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-elem {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+p {
+  color: bisque;
+}
+
+@media only screen and (max-width: 851px) {
+  .img-sizing {
+    width: 20em;
+    height: 15em;
+  }
 }
